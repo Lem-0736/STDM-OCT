@@ -18,7 +18,7 @@
 #include <fstream>
 #include <sstream>
 #include <iomanip>
-
+#define PI = 3.14;
 STDMOCTLEM::STDMOCTLEM(QWidget *parent)
 	: QMainWindow(parent)
 {
