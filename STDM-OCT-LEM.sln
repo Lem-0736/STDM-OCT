@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STDM-OCT-LEM", "STDM-OCT-LEM\STDM-OCT-LEM.vcxproj", "{3803CF22-74D2-4D1C-A872-F7CE39689E0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3803CF22-74D2-4D1C-A872-F7CE39689E0F}.Debug|x64.ActiveCfg = Debug|x64
+		{3803CF22-74D2-4D1C-A872-F7CE39689E0F}.Debug|x64.Build.0 = Debug|x64
+		{3803CF22-74D2-4D1C-A872-F7CE39689E0F}.Release|x64.ActiveCfg = Release|x64
+		{3803CF22-74D2-4D1C-A872-F7CE39689E0F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FB85220-D125-4E80-9F75-002C0ED50136}
+	EndGlobalSection
+EndGlobal
