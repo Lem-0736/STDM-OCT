@@ -66,6 +66,7 @@
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(ACAPLIB2_ROOT)/Lib/x64;$(CUDA_PATH)/lib\x64;$(NIEXTCCOMPILERSUPP)/lib64/msvc;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>AcapLib2.lib;cuda.lib;cufft.lib;cudart.lib;NIDAQmx.lib;nidaqmx.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

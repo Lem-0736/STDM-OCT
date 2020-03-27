@@ -9,7 +9,10 @@ class STDMOCTLEM : public QMainWindow
 
 public:
 	STDMOCTLEM(QWidget *parent = Q_NULLPTR);
-
+	void Create();
 private:
 	Ui::STDMOCTLEMClass ui;
+
+private slots:
+	void Start();
 };
